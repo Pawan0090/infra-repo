@@ -6,7 +6,7 @@ To ensure enterprise-grade scaling and state management, this project utilizes *
 
 ##  Architecture & Modules
 *   **Amazon EKS (`/modules/eks`):** Provisions the Kubernetes control plane and managed node groups.
-*   **Amazon RDS (`/modules/rds`):** Provisions the highly available PostgreSQL databases used for the on-premise migration.
+*   **Amazon RDS (`/modules/rds`):** Provisions the MariaDB databases.
 *   **AWS VPC (`/modules/vpc`):** Manages the foundational networking, subnets, and routing.
 
 ##  Live Environment Structure

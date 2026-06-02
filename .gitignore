@@ -1,0 +1,14 @@
+cat <<EOF > .gitignore
+# Ignore Terragrunt cache
+**/.terragrunt-cache/
+.terragrunt-cache/
+
+# Ignore Terraform cache
+**/.terraform/
+.terraform/
+
+# Ignore local state files (state should be in S3)
+*.tfstate
+*.tfstate.*
+crash.log
+EOF
